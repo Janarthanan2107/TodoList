@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <!-- normalized css -->
+    <link rel="stylesheet" href="./style/normalized.css">
+    <!-- fontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Customized css -->
+    <link rel="stylesheet" href="./style/customized.css">
+</head>
+
+<body>
+    <!--Contents needs to places here!-->
+    <h1>Todo Application</h1>
+    <div class="container">
+        <div class="form-control">
+            <input type="text" id="title" name="name" placeholder="Enter title">
+            <button class="btn btn-add" id="submit">Add</button>
+        </div>
+        <div class="list-heading">
+            <p>Add your task:</p>
+        </div>
+        <div class="list-container" id="list-container">
+            <!-- <div class="list-item">
+                <div class="list-text">
+                    List item one
+                </div>
+                <div>
+                    <button class="btn-edit"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button class="btn-delete"><i class="fa-solid fa-trash"></i></button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
